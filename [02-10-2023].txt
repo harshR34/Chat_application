@@ -1,0 +1,62 @@
+02-10-2023
+[10:32] Server : hey
+[10:32] Server : what are you doing 
+[10:32] Server : ok how can i help you
+[10:32] Server : just send me
+[10:32] Server : okk
+[10:32] Server : ok
+02-10-2023
+[10:32] Client : hey
+[10:32] Client : i am do my code
+[10:32] Client : please check my code
+[10:32] Client : send code on whatsapp
+[10:32] Client : i check it and give review to you
+[10:32] Client : exit
+02-10-2023
+02-10-2023
+02-10-2023
+02-10-2023
+02-10-2023
+[02-10-2023] [11:00]
+02-10-2023
+[11:20] Server : what are doing
+[11:20] Server : what are you waiting for 
+[11:20] Server : ok
+[11:20] Server : exit
+[02-10-2023] [11:20]
+[11:20] Client : hi
+[11:20] Client : hey
+[11:20] Client : i am fine
+[11:20] Client : for my friends
+02-10-2023
+[11:25] Server : hey
+[11:25] Server : what are you doing now 
+[11:25] Server : ok what can i help you
+[11:25] Server : ok by 
+[11:25] Server : exit
+[02-10-2023] [11:25]
+[11:25] Client : hey
+[11:25] Client : i am fine
+[11:25] Client : i can help mw
+[11:25] Client : by
+
+[02-10-2023] [11:27]
+[11:27] Client : hey 
+[11:27] Client : hello
+[11:27] Client : bey
+[02-10-2023] [11:27]
+[11:27] Server : hey
+[11:27] Server : hello
+[11:27] Server : bye
+[11:27] Server : exit
+
+----------------------------------------------------
+[02-10-2023] [11:30]
+[11:30] Client : hey
+[11:30] Client : i am fine but what are doing
+
+[02-10-2023] [11:30]
+[11:30] Server : hey
+[11:30] Server : what are you doing
+[11:30] Server : i am finer
+[11:30] Server : exit

@@ -1,0 +1,58 @@
+
+[06-10-2023] [08:34]
+
+----------------------------------------------------
+[06-10-2023] [08:37]
+[08:37] Client : hey brother
+[08:37] Client : i test my code  
+[08:37] Client : thanks
+[08:37] Client : by
+
+[06-10-2023] [08:37]
+[08:37] Server : hello brother
+[08:37] Server : what are you doing now
+[08:37] Server : ok do it well
+[08:37] Server : oy
+[08:37] Server : by
+[08:37] Server : exit
+
+----------------------------------------------------
+[06-10-2023] [08:40]
+
+[06-10-2023] [08:40]
+[08:40] Server : exit
+
+[06-10-2023] [12:07]
+[12:07] Server : hey
+[12:07] Server : what are you doing now 
+[12:07] Server : ok bye
+[12:07] Server : exit
+
+----------------------------------------------------
+[06-10-2023] [12:07]
+[12:07] Client : hey
+[12:07] Client : i am fine
+
+----------------------------------------------------
+[06-10-2023] [12:18]
+[12:18] Client : hi
+[12:18] Client : hi i am parth 
+[12:18] Client : i am mla of sola
+[12:18] Client : 7000 same as russian \
+[12:18] Client : 
+[12:18] Client : lodsa
+[12:18] Client : exit
+
+[06-10-2023] [12:19]
+[12:19] Server : hey
+[12:19] Server : 1656
+[12:19] Server : hi
+[12:19] Server : my nmae is amit shah 
+[12:19] Server : i want to buy you....
+
+[06-10-2023] [12:34]
+[12:34] Server : hey
+[12:34] Server : exit
+
+----------------------------------------------------
+[06-10-2023] [12:33]

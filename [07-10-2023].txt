@@ -1,0 +1,20 @@
+
+----------------------------------------------------
+[07-10-2023] [09:09]
+[09:09] Client : whats are you doing 
+[09:09] Client : what are you doing 
+[09:09] Client : ok bye
+
+[07-10-2023] [09:10]
+[09:10] Server : hey
+[09:10] Server : hey
+[09:10] Server : what are doing now
+[09:10] Server : exit
+
+----------------------------------------------------
+[07-10-2023] [10:02]
+[10:02] Client : hey
+
+[07-10-2023] [10:02]
+[10:02] Server : hey
+[10:02] Server : exit

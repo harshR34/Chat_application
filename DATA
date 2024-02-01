@@ -1,0 +1,140 @@
+Runnable reader = () -> {
+            System.out.println("Reading started...........");
+            try{
+                while (true){
+                    String serverMsg = br.readLine();
+                    if(serverMsg.equals("exit")){
+                        System.out.println("Client terminate the chat.");
+                        JOptionPane.showMessageDialog(this,"Client terminate the chat.");
+                        messageInput.setEnabled(false);
+                        socket.close();
+                        break;
+                    }
+                    System.out.println("Client : "+serverMsg);
+//                    massegeArea.append("Client : "+serverMsg+"\n");
+//                    massegeArea.setForeground(Color.RED); // Set text color to red
+//                    massegeArea.append("Client : "+serverMsg+"\n----------------------------------------------------------------------------------------------\n");
+//                    Color c = new Color(0xEE0D0D);
+//                    massegeArea.setForeground(c);
+                }
+            }catch (Exception e){
+                System.out.println("Connection closed");
+            }
+        };
+        new Thread(reader).start();
+        new Thread(reader).join();
+
+
+
+        -----------------------------------------------------------------------------------------------------------------------
+        System.out.println("Writing started...........");
+                    try {
+                        while (!socket.isClosed()) {
+                            BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
+                            String content = br1.readLine();
+                            out.println("ME : "+content);
+                            out.flush();
+                            if(content.equalsIgnoreCase("exit")){
+                                socket.close();
+                                break;
+                            }
+                        }
+                        fw.close();
+                    } catch (Exception e) {
+                        System.out.println("Connection closed");
+                    }
+
+
+
+
+                    client
+                    Runnable reader = () -> {
+                                System.out.println("Reading started...........");
+                                try{
+                                    while (true){
+                                        String ClientMsg = br.readLine();
+                                        if(ClientMsg.equals("exit")){
+                                            System.out.println("Server terminate the chat.");
+                                            JOptionPane.showMessageDialog(this,"Server terminate the chat.");
+                                            MSGField.setEnabled(false);
+                                            socket.close();
+                                            break;
+                                        }
+                                        System.out.println("Server : "+ClientMsg);
+                    //                    MSGArea.setForeground(Color.RED);
+                    //                    MSGArea.append("Server : "+ClientMsg+"\n----------------------------------------------------------------------------------------------\n");
+                    //                    Color c = new Color(0xEE0909);
+                    //                    MSGArea.setForeground(c);
+                                    }
+                                }catch (Exception e){
+                                    System.out.println("Connection closed");
+                                }
+                            };
+                            new Thread(reader).start();
+                            new Thread(reader).join();
+
+
+                            Runnable writer = () -> {
+                                        System.out.println("Writing started...........");
+                                        try{
+                                            while (!socket.isClosed()) {
+                                                BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
+                                                String content = br1.readLine();
+                                                out.println("ME : "+content);
+                                                out.flush();
+                                                if (content.equalsIgnoreCase("exit")){
+                                                    socket.close();
+                                                    break;
+                                                }
+                                            }
+                                        } catch (Exception e) {
+                                            System.out.println("Connection closed");
+                                        }
+                                    };
+                                    new Thread(writer).start();
+                                    new Thread(writer).join();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    System.out.println(bold+cyan+italicize+"Reader Started......."+rest);
+                                            Runnable reader = ()->{
+                                                while(true){
+                                                    try {
+                                                        String msg = br.readLine();
+                                                        if(msg.equalsIgnoreCase(bold+yellow+"exit"+rest)){
+                                                            System.out.println(bold+red+"Server terminated the chat."+rest);
+                                                            break;
+                                                        }
+                                                        System.out.println(bold+italicize+blue+underLine+"Server "+rest+bold+italicize+blue+":- "+rest+yellow+bold+msg+rest);
+                                                    }catch(Exception exc){
+
+                                                    }
+                                                }
+                                            };
+                                            new Thread(reader).start();
